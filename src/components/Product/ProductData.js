@@ -11,6 +11,7 @@ const ProductData = [
       "https://images.pexels.com/photos/1181682/pexels-photo-1181682.jpeg?w=150&h=150",
     profileLink: "https://facebook.com/chisomchukwukwe",
     buttonText: "View Profile",
+    buttonDetailText: "Buy me a coffee"
   },
   {
     id: 2,
@@ -24,6 +25,7 @@ const ProductData = [
       "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?w=150&h=150",
     profileLink: "https://facebook.com/amara.nwokolo",
     buttonText: "View Profile",
+    buttonDetailText: "Buy me a coffee"
   },
   {
     id: 3,
@@ -34,9 +36,10 @@ const ProductData = [
     background:
       "https://images.pexels.com/photos/1001647/pexels-photo-1001647.jpeg",
     profileImage:
-      "https://images.pexels.com/photos/1644771/pexels-photo-1644771.jpeg?w=150&h=150",
+      null,
     profileLink: "https://facebook.com/david.okeke",
     buttonText: "View Profile",
+    buttonDetailText: "Buy me a coffee"
   },
   {
     id: 4,
@@ -46,10 +49,10 @@ const ProductData = [
       "Detail-oriented product manager with experience in agile methodologies.",
     background:
       "https://images.pexels.com/photos/3184315/pexels-photo-3184315.jpeg",
-    profileImage:
-      "https://images.pexels.com/photos/1642633/pexels-photo-1642633.jpeg?w=150&h=150",
+    profileImage: null,
     profileLink: "https://facebook.com/ngozi.obi",
     buttonText: "View Profile",
+    buttonDetailText: "Buy me a coffee"
   },
   {
     id: 5,
@@ -59,10 +62,10 @@ const ProductData = [
       "Dedicated software engineer with a focus on backend development.",
     background:
       "https://images.pexels.com/photos/3184297/pexels-photo-3184297.jpeg",
-    profileImage:
-      "https://images.pexels.com/photos/1239292/pexels-photo-1239292.jpeg?w=150&h=150",
+    profileImage: null,
     profileLink: "https://facebook.com/emeka.uzo",
     buttonText: "View Profile",
+    buttonDetailText: "Buy me a coffee"
   },
   {
     id: 6,
@@ -75,6 +78,7 @@ const ProductData = [
       "https://images.pexels.com/photos/1181685/pexels-photo-1181685.jpeg?w=150&h=150",
     profileLink: "https://facebook.com/kemi.adebayo",
     buttonText: "View Profile",
+    buttonDetailText: "Buy me a coffee"
   },
   {
     id: 7,
@@ -88,6 +92,7 @@ const ProductData = [
       "https://images.pexels.com/photos/1644775/pexels-photo-1644775.jpeg?w=150&h=150",
     profileLink: "https://facebook.com/chinedu.eze",
     buttonText: "View Profile",
+    buttonDetailText: "Buy me a coffee"
   },
   {
     id: 8,
@@ -101,6 +106,7 @@ const ProductData = [
       "https://images.pexels.com/photos/1181669/pexels-photo-1181669.jpeg?w=150&h=150",
     profileLink: "https://facebook.com/ify.nnaji",
     buttonText: "View Profile",
+    buttonDetailText: "Buy me a coffee"
   },
   {
     id: 9,
@@ -110,10 +116,10 @@ const ProductData = [
       "Results-driven SEO specialist helping brands improve their online visibility.",
     background:
       "https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg",
-    profileImage:
-      "https://images.pexels.com/photos/1642638/pexels-photo-1642638.jpeg?w=150&h=150",
+    profileImage: null,
     profileLink: "https://facebook.com/tunde.ogunleye",
     buttonText: "View Profile",
+    buttonDetailText: "Buy me a coffee"
   },
   {
     id: 10,
@@ -127,6 +133,7 @@ const ProductData = [
       "https://images.pexels.com/photos/1644767/pexels-photo-1644767.jpeg?w=150&h=150",
     profileLink: "https://facebook.com/adaobi.chukwu",
     buttonText: "View Profile",
+    buttonDetailText: "Buy me a coffee"
   },
 ];
 

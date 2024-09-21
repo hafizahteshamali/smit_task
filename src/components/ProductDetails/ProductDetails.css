@@ -1,23 +1,62 @@
 .DetailBox_Wrapper {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 10px;
 }
 .box {
-  height: 400px;
+  height: 350px;
   width: 50%;
-  background-color: rgba(0, 128, 0, 0.425);
+  background-color: #fff;
   backdrop-filter: blue(30px);
   margin: auto;
   border-radius: 20px;
-  text-align: center;
   padding: 10px;
+  display: flex;
   color: #fff;
 }
-.box h2 {
-  margin-top: 20px;
+.img-wrap{
+  background-image: url('../../../public/assets/images/box-bg.png');
+  width: 50%;
+  background-size: cover;
+  background-position: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box img{
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.text-wrapper{
+  height: 100%;
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.text-wrapper h2{
+  color: #000;
+  font-size: 30px;
+}
+.text-wrapper h5{
+  color: #D5B0CF;
+}
+.text-wrapper p{
+  color: #000;
+}
+.text-wrapper a{
+  text-decoration: none;
+  background-color: #BB8DB7;
+  color: #fff !important;
+  border-radius: 5px;
+  width: 60%;
+  padding: 10px;
 }

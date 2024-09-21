@@ -6,6 +6,7 @@ import ProductDetails from "./components/ProductDetails/ProductDetails.jsx";
 import Error from "./components/Error/Error.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <Routes>

@@ -1,6 +1,7 @@
 import { useParams } from "react-router";
 import ProductData from "../Product/ProductData";
 import "./ProductDetails.css";
+import "./Responsive.css";
 
 const ProductDetails = () => {
   const { id } = useParams();
@@ -9,7 +10,7 @@ const ProductDetails = () => {
     return item.id == id;
   });
 
-  const { name, profession, description, background, profileImage } =
+  const { name, profession, description, background, profileImage, buttonDetailText } =
     singleData;
 
   return (
@@ -18,10 +19,15 @@ const ProductDetails = () => {
       style={{ backgroundImage: `url(${background})` }}
     >
       <div className="box">
-        <img src={profileImage} alt="" />
+        <div className="img-wrap">
+        <img src={profileImage == null ? "../assets/images/profile-not-found.png" : profileImage} alt="" />
+        </div>
+        <div className="text-wrapper">
         <h2>{name}</h2>
         <h5>{profession}</h5>
         <p>{description}</p>
+        <a href="">{buttonDetailText}</a>
+        </div>
       </div>
     </div>
   );

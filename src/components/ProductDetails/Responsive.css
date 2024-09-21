@@ -1,0 +1,88 @@
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .box{
+        width: 80%;
+    }
+} 
+
+@media only screen and (min-width: 600px) and (max-width: 767px){
+    .box{
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+    }
+    .img-wrap{
+        width: 80%;
+        height: 200px;
+        margin: auto;
+    }
+    .img-wrap img{
+        height: 150px;
+        width: 150px;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+    .text-wrapper{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .text-wrapper a{
+        margin: auto;
+    }
+} 
+
+
+@media only screen and (min-width: 400px) and (max-width: 599px){
+    .box{
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+    }
+    .img-wrap{
+        width: 80%;
+        height: 200px;
+        margin: auto;
+    }
+    .img-wrap img{
+        height: 150px;
+        width: 150px;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+    .text-wrapper{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .text-wrapper a{
+        margin: auto;
+    }
+} 
+
+
+@media only screen and (min-width: 320px) and (max-width: 399px){
+    .box{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .img-wrap{
+        width: 95%;
+        height: 200px;
+        margin: auto;
+    }
+    .img-wrap img{
+        height: 150px;
+        width: 150px;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+    .text-wrapper{
+        width: 95%;
+        margin: auto;
+        text-align: center;
+    }
+    .text-wrapper a{
+        margin: auto;
+    }
+} 

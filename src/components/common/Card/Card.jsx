@@ -1,4 +1,6 @@
+/* eslint-disable react/prop-types */
 import "./Card.css";
+import "./Responsive.css";
 import { useNavigate } from "react-router";
 
 const Card = ({ data }) => {
@@ -10,7 +12,7 @@ const Card = ({ data }) => {
     profileImage,
     profileLink,
     buttonText,
-    id,
+    id
   } = data;
 
   const navigator = useNavigate();
@@ -20,12 +22,13 @@ const Card = ({ data }) => {
         className="img-wrapper"
         style={{ backgroundImage: `url(${background})` }}
       >
-        <img className="dp" src={profileImage} alt="" />
+        <img className="dp" src={profileImage == null ? "./assets/images/profile-not-found.png" : profileImage} alt="" />
       </div>
       <div className="card-body">
         <h5 className="card-title">{name}</h5>
         <h6>{profession}</h6>
         <p className="card-text">{description.slice(0, 40)}...</p>
+        
         <a
           href=""
           onClick={() => navigator(`/product/${id}`)}
